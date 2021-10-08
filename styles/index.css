@@ -1,0 +1,13 @@
+.body {
+    margin: 0;
+}
+
+.sections {
+    position: relative;
+    min-height: calc(100vh - 69px);
+}
+
+.markers {
+    position: absolute;
+    bottom: 69px;
+}

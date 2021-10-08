@@ -1,0 +1,21 @@
+.features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.feature-items {
+    display: flex;
+    align-items: center;
+}
+
+.feature-item-heading {
+    display: flex;
+    align-items: center;
+}
+
+.feature-item-text {
+    display: flex;
+    align-items: center;
+}
