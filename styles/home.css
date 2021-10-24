@@ -12,6 +12,8 @@
     align-items: center;
     justify-content: center;
     padding: 16px 32px;
+    height: 64vh;
+
 }
 
 .home-banner-left {
@@ -19,9 +21,10 @@
     font-size: 32px;
 }
 
-.home-banner-center {
-    height: 64vh;
-    width: 40vw;
+.home-banner-center-image {
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 .home-banner-right {
@@ -47,4 +50,5 @@
 .home-footer-text {
     color: #6E6E6E;
     font-size: 16px;
+    display: flex;
 }

@@ -2,7 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0 32px;
+}
+
+.features-container-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 72vh;
 }
 
 .feature-items {
@@ -11,11 +19,17 @@
 }
 
 .feature-item-heading {
-    display: flex;
-    align-items: center;
+    color: #009097;
+    font-size: 24px;
+    margin-bottom: 16px;
 }
 
+.feature-item-left {
+    text-align: right;
+} 
+
 .feature-item-text {
-    display: flex;
-    align-items: center;
+    color: #707070;
+    font-size: 14px;
+    width: 340px;
 }

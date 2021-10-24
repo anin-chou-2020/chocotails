@@ -11,6 +11,10 @@
     z-index: 1;
 }
 
+.header-left {
+    display: flex;
+}
+
 .logo-text {
     color: #FEA200;
     font-size: 32px;
