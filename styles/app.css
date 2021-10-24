@@ -2,14 +2,32 @@
     padding: 0 32px;
 }
 .app-heading {
-    text-align: center;
     margin-bottom: 24px;
     color: #FFA300;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56vh;
+}
+
+.app-banner-image {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
 }
 
 .app-footer {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 48px;
 }
 
@@ -30,5 +48,6 @@
 .app-footer-text-footer {
     color: #6E6E6E;
     font-size: 16px;
+    display: flex;
 }
 
