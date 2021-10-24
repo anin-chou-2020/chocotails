@@ -16,6 +16,8 @@
 
 .about-heading-1 {
     color: #FFA300;
+    display: flex;
+    align-items: center;
 }
 
 .about-heading-2 {
@@ -34,6 +36,12 @@
 
 .about-misssion-container-items {
     width: 280px;
+}
+
+.about-container-item-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-numbers {
